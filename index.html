@@ -14,11 +14,6 @@
 
   <!-- Your Custom Styles -->
   <link rel="stylesheet" href="styles.css" />
-
-  <!-- Inline icon color override -->
-  <style>
-
-  </style>
 </head>
 
 <body>
@@ -40,13 +35,15 @@
   </nav>
 
   <!-- Hero -->
-  <section class="hero">
-    <div class="hero-content">
-      <h1>We Listen, We Understand, We Create</h1>
-      <p>Affordable, Responsible, Human Website Solutions</p>
-      <a href="#contact" class="btn btn-cta">Let's Get Started</a>
-    </div>
+  <section class="hero container-fluid">
+    <h5>Welcome to BuildnHost. <br><br> At BuildnHost:</h5>
+    <h1>We Listen, Understand & Create.</h1>
   </section>
+
+  <!-- Hero Image -->
+  <div class="hero-image">
+    <img src="1.jpg" alt="Hero Image">
+  </div>
 
   <!-- Our Human Approach -->
   <section id="approach" class="section py-5">
@@ -55,21 +52,21 @@
       <div class="row g-4">
         <div class="col-md-4 d-flex">
           <div class="approach-card flex-fill text-center">
-            <div class="icon-wrapper mb-3"><i class="bi bi-ear fs-1"></i></div>
+            <div class="icon-wrapper icon-amber mb-3"><i class="bi bi-ear fs-1"></i></div>
             <h5>Listen</h5>
             <p>We take the time to truly understand your vision, your business, and your audience.</p>
           </div>
         </div>
         <div class="col-md-4 d-flex">
           <div class="approach-card flex-fill text-center">
-            <div class="icon-wrapper mb-3"><i class="bi bi-lightbulb fs-1"></i></div>
+            <div class="icon-wrapper icon-teal mb-3"><i class="bi bi-lightbulb fs-1"></i></div>
             <h5>Understand</h5>
             <p>We work with you to translate your ideas into a clear, actionable plan.</p>
           </div>
         </div>
         <div class="col-md-4 d-flex">
           <div class="approach-card flex-fill text-center">
-            <div class="icon-wrapper mb-3"><i class="bi bi-laptop fs-1"></i></div>
+            <div class="icon-wrapper icon-purple mb-3"><i class="bi bi-laptop fs-1"></i></div>
             <h5>Create</h5>
             <p>We build a beautiful, functional website that perfectly represents you and your brand.</p>
           </div>
@@ -85,28 +82,28 @@
       <div class="row g-4">
         <div class="col-md-3 d-flex">
           <div class="service-card flex-fill text-center">
-            <div class="icon-wrapper mb-3"><i class="bi bi-window fs-1"></i></div>
+            <div class="icon-wrapper icon-blue mb-3"><i class="bi bi-window fs-1"></i></div>
             <h5>Website Creation</h5>
             <p>Custom websites tailored for your personal or business needs.</p>
           </div>
         </div>
         <div class="col-md-3 d-flex">
           <div class="service-card flex-fill text-center">
-            <div class="icon-wrapper mb-3"><i class="bi bi-globe fs-1"></i></div>
+            <div class="icon-wrapper icon-green mb-3"><i class="bi bi-globe fs-1"></i></div>
             <h5>Domain Buying</h5>
             <p>We help you find and purchase the perfect domain name.</p>
           </div>
         </div>
         <div class="col-md-3 d-flex">
           <div class="service-card flex-fill text-center">
-            <div class="icon-wrapper mb-3"><i class="bi bi-hdd-network fs-1"></i></div>
+            <div class="icon-wrapper icon-rose mb-3"><i class="bi bi-hdd-network fs-1"></i></div>
             <h5>Domain Hosting</h5>
             <p>Reliable and secure hosting to keep your site online 24/7.</p>
           </div>
         </div>
         <div class="col-md-3 d-flex">
           <div class="service-card flex-fill text-center">
-            <div class="icon-wrapper mb-3"><i class="bi bi-headset fs-1"></i></div>
+            <div class="icon-wrapper icon-amber mb-3"><i class="bi bi-headset fs-1"></i></div>
             <h5>Annual Support</h5>
             <p>Ongoing support and maintenance to ensure your site is always up-to-date.</p>
           </div>
@@ -116,27 +113,32 @@
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="section py-5">
+  <section id="contact" class="section py-5" style="background: var(--bg-light);">
     <div class="container">
-      <h2 class="section-title">Ready to Build Your Digital Home?</h2>
-      <p class="text-center mb-4">Let's talk about your project and turn your ideas into a stunning website.</p>
-      <div class="contact-form">
-        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
-          <div class="row g-3">
-            <div class="col-md-6">
-              <input type="text" class="form-control styled-input" placeholder="Your Name" required />
-            </div>
-            <div class="col-md-6">
-              <input type="email" class="form-control styled-input" placeholder="Your Email" required />
-            </div>
-            <div class="col-12">
-              <textarea class="form-control styled-input" rows="5" placeholder="Your Message" required></textarea>
-            </div>
-            <div class="col-12 text-center">
-              <button type="submit" class="btn-submit">Send Message</button>
-            </div>
+      <h2 class="section-title">Contact Us</h2>
+
+      <div class="row align-items-center gy-4">
+
+        <!-- Contact Image -->
+        <div class="col-md-6">
+          <div class="contact-image-wrapper rounded overflow-hidden shadow-sm">
+            <img src="2.jpg" alt="Contact BuildnHost" class="img-fluid w-100 h-100 object-fit-cover">
           </div>
-        </form>
+        </div>
+
+        <!-- Contact Details Card -->
+        <div class="col-md-6">
+          <div class="contact-card p-4 p-md-5 shadow-sm rounded bg-white h-100">
+            <h4 class="mb-4" style="color: var(--primary); font-weight: 600;">We’d Love to Hear From You</h4>
+            <p class="mb-3"><strong>Phone:</strong><br> <a href="tel:+1234567890" class="contact-link">+91
+                9898420999</a></p>
+            <p class="mb-3"><strong>Email:</strong><br> <a href="mailto:hello@buildnhost.com"
+                class="contact-link">omvasani@outlook.com</a></p>
+            <p class="mb-3"><strong>Address:</strong><br> Ahmedabad, Gujarat, India</p>
+            <p class="mb-0"><strong>Business Hours:</strong><br> Mon – Fri: 10:00 AM – 6:00 PM</p>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -148,6 +150,7 @@
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
