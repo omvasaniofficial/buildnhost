@@ -2,154 +2,240 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BuildnHost</title>
-
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-
-  <!-- Bootstrap Icons -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
-
-  <!-- Your Custom Styles -->
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Front End Web Developer | Om Vasani</title>
 </head>
 
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">BuildnHost</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="#approach">Our Approach</a></li>
-          <li class="nav-item"><a class="nav-link" href="#services">Our Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
-        </ul>
-      </div>
+
+  <nav>
+    <div class="nav-logo">
+      <a href="index.html">Om Vasani</a>
     </div>
+
+    <!-- Hamburger button -->
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <ul class="nav-links">
+      <li class="link"><a href="#about">About Me</a></li>
+      <li id="link1" class="link"><a href="#approach">My Approach</a></li>
+      <li id="link2" class="link"><a href="#services">Services</a></li>
+      <li id="link3" class="link"><a href="#contact">Contact</a></li>
+    </ul>
+
+    <button class="btn">
+      <a href="#contact">Let's Create</a>
+    </button>
   </nav>
 
-  <!-- Hero -->
-  <section class="hero container-fluid">
-    <h5>Welcome to BuildnHost. <br><br> At BuildnHost:</h5>
-    <h1>We Listen, Understand & Create.</h1>
+  <section class="hero">
+    <div class="hero-image">
+      <img src="1.jpg" alt="Hero Image">
+    </div>
+    <div class="hero-content">
+      <h1>I am here to help make your digital journey easy.</h1>
+      <p>
+        Let’s build modern, responsive websites that look great on any device.
+      </p>
+    </div>
   </section>
 
-  <!-- Hero Image -->
-  <div class="hero-image">
-    <img src="1.jpg" alt="Hero Image">
-  </div>
+  <header id="about" class="container">
+    <div class="content">
+      <span class="blur"></span>
+      <span class="blur"></span>
+      <h4>CREATE YOUR WEBSITE WITH ME</h4>
+      <H1>Hi, I'm <span>Om</span>, Front End Web Developer</H1>
+      <p>
+        I specialize in creating beautiful, user-friendly, and responsive websites that look great on any device. My
+        toolkit includes the fundamentals like HTML, CSS, and JavaScript, which are the building blocks of the web. I'm
+        eager to apply my skills to your project, whether you're starting from scratch or want to give an existing site
+        a fresh look. <br> <br> Let's collaborate to build a website that not only looks fantastic but also provides a
+        seamless and enjoyable experience for your visitors!
+      </p>
+      <button class="btn">
+        <a href="#contact">Get Started</a>
+      </button>
+    </div>
+    <div class="image">
+      <img src="header.png">
+    </div>
+  </header>
 
-  <!-- Our Human Approach -->
-  <section id="approach" class="section py-5">
-    <div class="container">
-      <h2 class="section-title">Our Human Approach</h2>
-      <div class="row g-4">
-        <div class="col-md-4 d-flex">
-          <div class="approach-card flex-fill text-center">
-            <div class="icon-wrapper icon-amber mb-3"><i class="bi bi-ear fs-1"></i></div>
-            <h5>Listen</h5>
-            <p>We take the time to truly understand your vision, your business, and your audience.</p>
-          </div>
+  <section id="approach" class="container">
+    <h2 class="header">MY APPROACH</h2>
+    <div class="features">
+      <div class="card">
+        <span><i class="ri-customer-service-2-line"></i></span>
+        <h4>Listen</h4>
+        <p>
+          I start by listening, and I mean it. Your story, goals, and challenges are the foundation of my work. Through
+          a collaborative, two-way dialogue, I capture your unique vision and the needs of your audience.
+        </p>
+      </div>
+      <div class="card">
+        <span><i class="ri-shake-hands-line"></i></span>
+        <h4>Understand</h4>
+        <p>
+          I don't just listen; I internalize. I dive deep into your objectives, translating your vision into a clear,
+          actionable strategy. I ask the right questions, synthesize feedback, and explore every angle to ensure my plan
+          is robust, effective, and perfectly aligned with your business.
+        </p>
+      </div>
+      <div class="card">
+        <span><i class="ri-code-line"></i></span>
+        <h4>Create</h4>
+        <p>
+          After having a deep understanding of your needs, I build. I integrate the insights from our listening and
+          understanding phases into every element, resulting in a digital experience that represents your brand and
+          connects with your users.
+        </p>
+      </div>
+  </section>
+
+  <section id="services" class="container">
+    <h2 class="header">SERVICES</h2>
+    <p class="sub-header">
+      I provide a complete digital package to get your business online, from building your site to keeping it running
+      smoothly. My all-in-one service includes everything you need to establish and maintain a professional web
+      presence with ease.
+    </p>
+    <div class="pricing">
+      <div class="card">
+        <div class="content">
+          <h4>Website Creation</h4>
+          <h3>Rs. 5000</h3>
+          <p>
+            <i class="ri-checkbox-circle-line"></i>
+            One Page
+          </p>
+          <p>
+            <i class="ri-checkbox-circle-line"></i>
+            Static Website
+          </p>
+          <p>
+            <i class="ri-checkbox-circle-line"></i>
+            Custom Designed
+          </p>
+          <p>
+            <i class="ri-checkbox-circle-line"></i>
+            Mobile Responsive
+          </p>
         </div>
-        <div class="col-md-4 d-flex">
-          <div class="approach-card flex-fill text-center">
-            <div class="icon-wrapper icon-teal mb-3"><i class="bi bi-lightbulb fs-1"></i></div>
-            <h5>Understand</h5>
-            <p>We work with you to translate your ideas into a clear, actionable plan.</p>
-          </div>
+        <button class="btn">
+          <a href="#contact">Contact Now</a>
+        </button>
+      </div>
+      <div class="card">
+        <div class="content">
+          <h4>Domain & Hosting</h4>
+          <h3>Market Price</h3>
+          <p>
+            <i class="ri-checkbox-circle-line"></i>
+            Domain Suggestion
+          </p>
+          <p>
+            <i class="ri-checkbox-circle-line"></i>
+            Domain Search
+          </p>
+          <p>
+            <i class="ri-checkbox-circle-line"></i>
+            Domain Acquisition
+          </p>
+          <p>
+            <i class="ri-checkbox-circle-line"></i>
+            Fast & Secure Hosting
+          </p>
         </div>
-        <div class="col-md-4 d-flex">
-          <div class="approach-card flex-fill text-center">
-            <div class="icon-wrapper icon-purple mb-3"><i class="bi bi-laptop fs-1"></i></div>
-            <h5>Create</h5>
-            <p>We build a beautiful, functional website that perfectly represents you and your brand.</p>
-          </div>
+        <button class="btn">
+          <a href="#contact">Contact Now</a>
+        </button>
+      </div>
+      <div class="card">
+        <div class="content">
+          <h4>Annual Support</h4>
+          <h3>Rs. 3000</h3>
+          <p>
+            <i class="ri-checkbox-circle-line"></i>
+            On Call Support
+          </p>
+          <p>
+            <i class="ri-checkbox-circle-line"></i>
+            Performance Check
+          </p>
+          <p>
+            <i class="ri-checkbox-circle-line"></i>
+            Broken Link & Error Check
+          </p>
+          <p>
+            <i class="ri-checkbox-circle-line"></i>
+            Minor Updates
+          </p>
+        </div>
+        <button class="btn">
+          <a href="#contact">Contact Now</a>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <div class="contact-container">
+      <div class="contact-header">
+        <h2>Feel free to call and discuss.</h2>
+        <p>I am here to answer any questions you have and help you get started. Reach out to me for a free consultation
+          or to learn more about my services.</p>
+      </div>
+      <div class="contact-details">
+        <div class="detail-item">
+          <h4>Contact Name</h4>
+          <p>Om Vasani</p>
+        </div>
+        <div class="detail-item">
+          <h4>Contact Number</h4>
+          <p>
+            <a href="tel:+919898420999">
+              +91 9898420999
+            </a>
+          </p>
+        </div>
+        <div class="detail-item">
+          <h4>Email Id</h4>
+          <p>
+            <a href="mailto:omvasani@outlook.com">
+              omvasani@outlook.com
+            </a>
+          </p>
+        </div>
+        <div class="detail-item">
+          <h4>Address</h4>
+          <p>Ahmedabad, Gujarat, India</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Our Services -->
-  <section id="services" class="section py-5 bg-light">
-    <div class="container">
-      <h2 class="section-title">What We Do</h2>
-      <div class="row g-4">
-        <div class="col-md-3 d-flex">
-          <div class="service-card flex-fill text-center">
-            <div class="icon-wrapper icon-blue mb-3"><i class="bi bi-window fs-1"></i></div>
-            <h5>Website Creation</h5>
-            <p>Custom websites tailored for your personal or business needs.</p>
-          </div>
-        </div>
-        <div class="col-md-3 d-flex">
-          <div class="service-card flex-fill text-center">
-            <div class="icon-wrapper icon-green mb-3"><i class="bi bi-globe fs-1"></i></div>
-            <h5>Domain Buying</h5>
-            <p>We help you find and purchase the perfect domain name.</p>
-          </div>
-        </div>
-        <div class="col-md-3 d-flex">
-          <div class="service-card flex-fill text-center">
-            <div class="icon-wrapper icon-rose mb-3"><i class="bi bi-hdd-network fs-1"></i></div>
-            <h5>Domain Hosting</h5>
-            <p>Reliable and secure hosting to keep your site online 24/7.</p>
-          </div>
-        </div>
-        <div class="col-md-3 d-flex">
-          <div class="service-card flex-fill text-center">
-            <div class="icon-wrapper icon-amber mb-3"><i class="bi bi-headset fs-1"></i></div>
-            <h5>Annual Support</h5>
-            <p>Ongoing support and maintenance to ensure your site is always up-to-date.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact" class="section py-5" style="background: var(--bg-light);">
-    <div class="container">
-      <h2 class="section-title">Contact Us</h2>
-
-      <div class="row align-items-center gy-4">
-
-        <!-- Contact Image -->
-        <div class="col-md-6">
-          <div class="contact-image-wrapper rounded overflow-hidden shadow-sm">
-            <img src="2.jpg" alt="Contact BuildnHost" class="img-fluid w-100 h-100 object-fit-cover">
-          </div>
-        </div>
-
-        <!-- Contact Details Card -->
-        <div class="col-md-6">
-          <div class="contact-card p-4 p-md-5 shadow-sm rounded bg-white h-100">
-            <h4 class="mb-4" style="color: var(--primary); font-weight: 600;">We’d Love to Hear From You</h4>
-            <p class="mb-3"><strong>Phone:</strong><br> <a href="tel:+1234567890" class="contact-link">+91
-                9898420999</a></p>
-            <p class="mb-3"><strong>Email:</strong><br> <a href="mailto:hello@buildnhost.com"
-                class="contact-link">omvasani@outlook.com</a></p>
-            <p class="mb-3"><strong>Address:</strong><br> Ahmedabad, Gujarat, India</p>
-            <p class="mb-0"><strong>Business Hours:</strong><br> Mon – Fri: 10:00 AM – 6:00 PM</p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 BuildnHost. All Rights Reserved.</p>
+  <footer class="container">
+    <span class="blur"></span>
+    <span class="blur"></span>
+    <p>Your friendly neighbourhood front end web developer</p>
   </footer>
 
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <div class="copyright">
+    Copyright © 2025 Om Vasani. All Rights Reserved.
+  </div>
+
+  <button id="scrollTopBtn">
+    <i class="ri-arrow-up-line"></i>
+  </button>
+
   <script src="script.js"></script>
 </body>
 
